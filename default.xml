@@ -11,6 +11,10 @@
   <remote  name="du"
            fetch="https://github.com/DirtyUnicorns/"
            review="gerrit.dirtyunicorns.com" />
+           
+  <remote name="jori"
+           fetch="https://github.com/twwolk/"
+           sync-j="4" />
 
   <default revision="refs/tags/android-5.0.1_r1"
            remote="aosp"
@@ -461,7 +465,7 @@
 
   <!--frameworks-->  
   <project path="frameworks/av" name="android_frameworks_av" remote="du" revision="lollipop" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="du" revision="lollipop" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="jori" revision="lollipop" />
   <project path="frameworks/native" name="android_frameworks_native" remote="du" revision="lollipop" />
   <project path="frameworks/opt/datetimepicker" name="android_frameworks_opt_datetimepicker" remote="du" revision="lollipop" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="du" revision="lollipop" />
@@ -490,7 +494,7 @@
 
   <!--packages-->
   <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="du" revision="lollipop" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="du" revision="lollipop" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="jori" revision="lollipop" />
   
   <!--vendor-->
   <project path="vendor/du" name="android_vendor_du" remote="du" revision="lollipop" />
