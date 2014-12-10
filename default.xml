@@ -15,6 +15,9 @@
   <remote name="jori"
            fetch="https://github.com/twwolk/"
            sync-j="4" />
+           
+  <remote name="lichti1901"
+           fetch="git://github.com/lichti1901/" />
 
   <default revision="refs/tags/android-5.0.1_r1"
            remote="aosp"
